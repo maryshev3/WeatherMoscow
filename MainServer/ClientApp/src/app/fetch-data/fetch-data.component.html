@@ -34,3 +34,15 @@
     </tr>
   </tbody>
 </table>
+
+<form action="">
+  <div>
+    <label for="chosenYear">Введите год</label>
+    <input type="number" required name="chosenYear" [(ngModel)]="chosenYear" />
+    <label for="chosenMonth">Введите месяц</label>
+    <input type="number" required name="chosenMonth" [(ngModel)]="chosenMonth" />
+    <label for="pageName">Номер страницы</label>
+    <input type="number" required name="pageNum" [(ngModel)]="pageNum" />
+    <button (click)="getData()">Перейти к странице</button>
+  </div>
+</form>

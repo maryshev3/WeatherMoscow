@@ -25,11 +25,17 @@
               [routerLinkActiveOptions]="{ exact: true }">
             <a class="nav-link text-dark" [routerLink]="['/']">Главная страница</a>
           </li>
-
+          
           <li class="nav-item"
               [routerLinkActive]="['link-active']"
               [routerLinkActiveOptions]="{ exact: true }">
             <a class="nav-link text-dark" [routerLink]="['/fetch-data']">Страница просмотра архивов</a>
+          </li>
+
+          <li class="nav-item"
+              [routerLinkActive]="['link-active']"
+              [routerLinkActiveOptions]="{ exact: true }">
+            <a class="nav-link text-dark" [routerLink]="['./upload-data']">Страница загрузки данных</a>
           </li>
         </ul>
       </div>
