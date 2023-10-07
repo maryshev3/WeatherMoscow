@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NPOI.SS.UserModel;
@@ -24,12 +25,14 @@ namespace WeatherAPI.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
+        [EnableCors]
         public async Task<List<Weather>> Get(int PageNum)
         {
             return await _appDbContext.Weathers.Skip((PageNum - 1) * RecordsInPage).Take(RecordsInPage).ToListAsync();
         }
 
         [HttpPost(Name = "PostWeatherForecast")]
+        [EnableCors]
         public async Task PostAsync(List<IFormFile> FormFile)
         {
 

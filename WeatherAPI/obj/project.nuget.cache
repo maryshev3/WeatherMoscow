@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DaEUrM+Dh4crEVI9WsB2lMzmZ36KezpajjLCS0tIlzFAyjUe5KJbNEF0wsmscY6jP9WsiTuYBJ7eB/q3U7hJqQ==",
+  "dgSpecHash": "5nTm3bBuCsRMpp5BR4m+JbdGlKAZk3UGY+0LYMzqqrU7HfjILPNnVpOpTYEXCUOf4kD8bweTBEk0WegBSbVMHQ==",
   "success": true,
-  "projectFilePath": "D:\\netLessons\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj",
+  "projectFilePath": "D:\\github\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marys\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\marys\\.nuget\\packages\\enums.net\\4.0.1\\enums.net.4.0.1.nupkg.sha512",

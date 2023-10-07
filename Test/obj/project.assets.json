@@ -6648,11 +6648,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\netLessons\\WeatherMoscow\\Test\\Test.csproj",
+      "projectUniqueName": "D:\\github\\WeatherMoscow\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "D:\\netLessons\\WeatherMoscow\\Test\\Test.csproj",
+      "projectPath": "D:\\github\\WeatherMoscow\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\marys\\.nuget\\packages\\",
-      "outputPath": "D:\\netLessons\\WeatherMoscow\\Test\\obj\\",
+      "outputPath": "D:\\github\\WeatherMoscow\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6669,8 +6669,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\netLessons\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj": {
-              "projectPath": "D:\\netLessons\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj"
+            "D:\\github\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj": {
+              "projectPath": "D:\\github\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj"
             }
           }
         }

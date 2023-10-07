@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\netLessons\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj": {}
+    "D:\\github\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj": {}
   },
   "projects": {
-    "D:\\netLessons\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj": {
+    "D:\\github\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\netLessons\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj",
+        "projectUniqueName": "D:\\github\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj",
         "projectName": "WeatherAPI",
-        "projectPath": "D:\\netLessons\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj",
+        "projectPath": "D:\\github\\WeatherMoscow\\WeatherAPI\\WeatherAPI.csproj",
         "packagesPath": "C:\\Users\\marys\\.nuget\\packages\\",
-        "outputPath": "D:\\netLessons\\WeatherMoscow\\WeatherAPI\\obj\\",
+        "outputPath": "D:\\github\\WeatherMoscow\\WeatherAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marys\\AppData\\Roaming\\NuGet\\NuGet.Config",

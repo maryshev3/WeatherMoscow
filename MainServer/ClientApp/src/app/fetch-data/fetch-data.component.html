@@ -1,0 +1,36 @@
+<h1 id="tableLabel">Архив погоды в Москве</h1>
+
+<p *ngIf="!weathers"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="weathers">
+  <thead>
+    <tr>
+      <th>Дата</th>
+      <th>Время</th>
+      <th>Темп.</th>
+      <th>Влаж.</th>
+      <th>Точка росы</th>
+      <th>Давление</th>
+      <th>Напр. ветра</th>
+      <th>Скорость ветра</th>
+      <th>Облачность</th>
+      <th>Граница облачности</th>
+      <th>Горизонт. видимость</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let weather of weathers">
+      <td>{{ weather.date }}</td>
+      <td>{{ weather.time }}</td>
+      <td>{{ weather.temperature }}</td>
+      <td>{{ weather.humidity }}</td>
+      <td>{{ weather.dewPoint }}</td>
+      <td>{{ weather.presure }}</td>
+      <td>{{ weather.windDirection }}</td>
+      <td>{{ weather.windSpeed }}</td>
+      <td>{{ weather.cloudy }}</td>
+      <td>{{ weather.highBorderCloudy }}</td>
+      <td>{{ weather.horizontalVisibility }}</td>
+    </tr>
+  </tbody>
+</table>
