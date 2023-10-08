@@ -54,7 +54,7 @@ namespace WeatherAPI.Controllers
 
         [HttpPost]
         [EnableCors]
-        public async Task PostAsync(List<IFormFile> FormFile)
+        public async Task PostAsync([FromForm]List<IFormFile> FormFile)
         {
 
             foreach(var File in FormFile)

@@ -1,9 +1,9 @@
 <h1>Загрузка Excel файлов</h1>
 
-<form enctype="multipart/form-data" method="POST" action="">
+<form>
   <p>Загрузите ваши таблицы на сервер</p>
   <p>
-    <input type="file" name="excelTable" multiple [(ngModel)]="chosenFiles">
-    <button (click)="sendFiles()">Отправить</button>
+    <input type="file" name="excelFiles" multiple (change)="selectFiles($event)">
+    <button (click)="uploadFiles()" [disabled]="!selectedFiles">Отправить</button>
   </p>
 </form>
