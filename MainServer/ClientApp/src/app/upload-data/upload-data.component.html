@@ -1,9 +1,9 @@
 <h1>Загрузка Excel файлов</h1>
 
-<form>
+<form [formGroup]="myForm">
   <p>Загрузите ваши таблицы на сервер</p>
   <p>
-    <input type="file" name="excelFiles" multiple (change)="selectFiles($event)">
+    <input type="file" formControlName="excelFiles" multiple (change)="selectFiles($event)">
     <button (click)="uploadFiles()" [disabled]="!selectedFiles">Отправить</button>
   </p>
 </form>

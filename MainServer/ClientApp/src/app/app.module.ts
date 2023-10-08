@@ -22,6 +22,7 @@ import { UploadDataComponent } from './upload-data/upload-data.component';
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
+    ReactiveFormsModule,
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
